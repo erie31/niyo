@@ -17,8 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Formu />
         </a>
+          <Formu />
       </header>
     </div>
   );
