@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(0deg, #02C2FF, #024a60);
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +37,46 @@
     transform: rotate(360deg);
   }
 }
+/* HOME */
+.home {
+position: absolute;
+width: 1756px;
+height: 1137px;
+left: -14px;
+top: -31px;}
+
+
+
+/* FOTO */
+.foto {
+position: absolute;
+width: 1756px;
+height: 1137px;
+left: -14px;
+top: -31px;
+}
+
+
+/* FONDO */
+.fondo {
+  background: linear-gradient(0deg, #02C2FF, #024a60);
+  background-blend-mode: multiply, normal;
+  filter: blur(31.3471px);
+  border-radius: 8px;
+  
+}
+/* NIYO DESIGNS */
+.nd {
+position: absolute;
+width: 1103px;
+height: 233px;
+left: 26.39px;
+top: 396px;
+
+font-family: 'Akshar';
+font-style: normal;
+font-weight: 700;
+font-size: 211.454px;
+line-height: 233px;
+}
+

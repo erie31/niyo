@@ -5,6 +5,7 @@ import Formu from './components/formu.js';
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,7 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
-          <Formu />
+      <Formu />
       </header>
     </div>
   );

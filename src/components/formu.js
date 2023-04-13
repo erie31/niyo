@@ -25,18 +25,16 @@ function Formu() {
   };
 
   return (
-    <div>
+    <div className=''>
       <h1>Mi CONTACTO</h1>
       <p>Escribime por cualquier consulta, no importa el tamaño del trabajo</p>
       <form className='cf' ref={form} onSubmit={sendEmail}>
-        <div className='half left cf'>
-          <input type='text' placeholder='Nombre' name='user_name' />
-          <input type='email' placeholder='Email' name='user_email' />
-        </div>
-        <div className='half right cf'>
+        <div className='cf'>
+          <input className='nombre' type='text' placeholder='Nombre' name='user_name' />
+          <input className='right' type='text' placeholder='Asunto' name='asunto' />
           <textarea name='mensaje' type='text' placeholder='Mensaje'></textarea>
         </div>
-        <input type='submit' value='Enviar' id='input-submit' />
+        <input className='' type='submit' value='Enviar' id='input-submit' />
       </form>
     </div>
   );

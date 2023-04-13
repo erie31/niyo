@@ -2,9 +2,9 @@
 
 html,
 body {
-  background: #f1f1f1;
+  
   font-family: 'Merriweather', sans-serif;
-  padding: 1em;
+ 
 }
 
 h1 {
@@ -21,7 +21,7 @@ form {
 input,
 textarea {
   border: 0;
-  outline: 0;
+
   padding: 1em;
   border-radius: 8px;
   display: block;
@@ -35,6 +35,7 @@ textarea {
   color: white;
   background: #e74c3c;
   cursor: pointer;
+  width: 588px;
 }
 
 #input-submit:hover {
@@ -43,20 +44,28 @@ textarea {
 
 textarea {
   height: 126px;
+  width: 562px;
+  
 }
 
-.half {
+
+.nombre {
   float: left;
-  width: 48%;
+  display: flex;
+  width: 25%;
   margin-bottom: 1em;
 }
 
 .right {
-  width: 50%;
+  display: inline;
+  width: 60%;
+  position: relative;
+  margin-left: 15px;
 }
 
 .left {
-  margin-right: 2%;
+  position: relative;
+  
 }
 
 @media (max-width: 480px) {
